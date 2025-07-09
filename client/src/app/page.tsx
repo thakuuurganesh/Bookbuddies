@@ -18,7 +18,7 @@ const stagger = {
   },
 };
 
-const HomePage = () => {
+export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen px-6 py-12 bg-gradient-to-br from-indigo-50 to-blue-50">
       <motion.section
@@ -177,4 +177,3 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
